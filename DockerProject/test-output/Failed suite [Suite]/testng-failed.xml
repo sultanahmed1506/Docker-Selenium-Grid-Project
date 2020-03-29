@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Suite]]" parallel="classes">
+  <test name="Test(failed)(failed)" parallel="classes">
+    <classes>
+      <class name="docker.ChromeTest1">
+        <methods>
+          <include name="testCR1"/>
+        </methods>
+      </class> <!-- docker.ChromeTest1 -->
+      <class name="docker.ChromeTest3">
+        <methods>
+          <include name="testCR3"/>
+        </methods>
+      </class> <!-- docker.ChromeTest3 -->
+      <class name="docker.FirefoxTest2">
+        <methods>
+          <include name="testFF2"/>
+        </methods>
+      </class> <!-- docker.FirefoxTest2 -->
+      <class name="docker.FirefoxTest3">
+        <methods>
+          <include name="testFF3"/>
+        </methods>
+      </class> <!-- docker.FirefoxTest3 -->
+      <class name="docker.FirefoxTest1">
+        <methods>
+          <include name="testFF1"/>
+        </methods>
+      </class> <!-- docker.FirefoxTest1 -->
+      <class name="docker.ChromeTest2">
+        <methods>
+          <include name="testCR2"/>
+        </methods>
+      </class> <!-- docker.ChromeTest2 -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->
